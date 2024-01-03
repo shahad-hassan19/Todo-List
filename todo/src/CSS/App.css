@@ -1,0 +1,38 @@
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.app .todo-box {
+  width: 420px;
+  height: 500px;
+  margin: 30px;
+  padding: 30px;
+  border-radius: 5px;
+  background-color: blue;
+}
+.app .todo-box .heading {
+  text-align: center;
+  font-size: xx-large;
+  font-weight: 700;
+}
+.app .todo-box .input-group {
+  text-align: center;
+  margin-top: 30px;
+}
+.app .todo-box .input-group .input-box {
+  height: 40px;
+  width: 60%;
+  border-radius: 5px;
+  background-color: transparent;
+}
+
+.btn {
+  background-color: orange;
+  font-weight: 700;
+  font-size: x-large;
+  border-radius: 5px;
+  padding: 5px 5px;
+  height: 46px;
+  width: 100px;
+}
